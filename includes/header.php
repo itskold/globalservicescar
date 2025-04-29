@@ -102,7 +102,7 @@ function getLangUrl($newLang)
         content="<?php echo t('global.site_name'); ?> | <?php echo isset($title) ? $title : t('global.site_name'); ?>">
     <meta property="og:description"
         content="<?php echo isset($description) ? $description : t('global.meta_description_alt'); ?>">
-    <meta property="og:image" content="https://www.globarcarservice.com/images/og-image.jpg">
+    <meta property="og:image" content="https://www.globarcarservice.com/images/og-image.png">
     <!-- Image à personnaliser -->
     <meta property="og:url" content="https://www.globarcarservice.com<?php echo $_SERVER['REQUEST_URI']; ?>">
     <meta property="og:type" content="website">
@@ -113,7 +113,7 @@ function getLangUrl($newLang)
         content="<?php echo t('global.site_name'); ?> | <?php echo isset($title) ? $title : t('global.site_name'); ?>">
     <meta name="twitter:description"
         content="<?php echo isset($description) ? $description : t('global.meta_description_alt'); ?>">
-    <meta name="twitter:image" content="https://www.globarcarservice.com/images/og-image.jpg">
+    <meta name="twitter:image" content="https://www.globarcarservice.com/images/og-image.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -123,7 +123,7 @@ function getLangUrl($newLang)
 
 
     <!-- Améliorations de Performance (Préchargement) -->
-    <link rel="preload" href="https://www.globarcarservice.com/images/banner.jpg" as="image">
+    <link rel="preload" href="https://www.globarcarservice.com/images/banner.png" as="image">
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/slick-theme.css">
@@ -159,7 +159,7 @@ function getLangUrl($newLang)
     $vehicles = [
         [
             'id' => 1,
-            'image' => ['/images/Minibus/B29A9069-Verbeterd-NR.jpg'],
+            'image' => ['/images/Minibus/B29A9069-Verbeterd-NR.png'],
             'marque' => 'Peugeot',
             'modele' => 'Traveller',
             'details' => '2.0 CR TDi L3H2 Automatique',
@@ -188,7 +188,7 @@ function getLangUrl($newLang)
         ],
         [
             'id' => 2,
-            'image' => ['/images/Minibus/B29A9084-Verbeterd-NR.jpg'],
+            'image' => ['/images/Minibus/B29A9084-Verbeterd-NR.png'],
             'marque' => 'Ford',
             'modele' => 'Transit',
             'details' => '2.0 CR TDi L3H2 Automatique',
@@ -217,7 +217,7 @@ function getLangUrl($newLang)
         ],
         [
             'id' => 3,
-            'image' => ['/images/Fourgon/Globalcar2024-43.jpg'],
+            'image' => ['/images/Fourgon/Globalcar2024-43.png'],
             'marque' => 'Volkswagen',
             'modele' => 'Crafter',
             'details' => '2.0 CR TDi L3H2 Automatique',
@@ -246,7 +246,7 @@ function getLangUrl($newLang)
         ],
         [
             'id' => 4,
-            'image' => ['/images/Fourgon/Globalcar2024-53.jpg'],
+            'image' => ['/images/Fourgon/Globalcar2024-53.png'],
             'marque' => 'Peugeot',
             'modele' => 'Boxer',
             'details' => '335 L2H2 Automatique',
@@ -275,7 +275,7 @@ function getLangUrl($newLang)
         ],
         [
             'id' => 5,
-            'image' => ['/images/Fourgon/Globalcar2024-53.jpg'],
+            'image' => ['/images/Fourgon/Globalcar2024-53.png'],
             'marque' => 'Citroen',
             'modele' => 'Jumper',
             'details' => '2.0 BlueHDi L2H3 Automatique',
@@ -304,7 +304,7 @@ function getLangUrl($newLang)
         ],
         [
             'id' => 6,
-            'image' => ['/images/Fourgon/Globalcar2024-84.jpg'],
+            'image' => ['/images/Fourgon/Globalcar2024-84.png'],
             'marque' => 'Peugeot',
             'modele' => 'Boxer',
             'details' => '2.0 BlueHDi L2H3 Automatique',
@@ -333,7 +333,7 @@ function getLangUrl($newLang)
         ],
         [
             'id' => 7,
-            'image' => ['/images/Fourgon/Globalcar2024-91.jpg'],
+            'image' => ['/images/Fourgon/Globalcar2024-91.png'],
             'marque' => 'Renault',
             'modele' => 'Trafic',
             'details' => '2.0 BlueHDi L2H3 Automatique',
@@ -362,7 +362,7 @@ function getLangUrl($newLang)
         ],
         [
             'id' => 8,
-            'image' => ['/images/Fourgon/Globalcar2024-100.jpg'],
+            'image' => ['/images/Fourgon/Globalcar2024-100.png'],
             'marque' => 'Citroen',
             'modele' => 'Jumpy',
             'details' => '2.0 BlueHDi L2H3 Automatique',
